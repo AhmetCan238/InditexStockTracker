@@ -1,7 +1,7 @@
 name: ⚡ Super Fast Stock Checker
 
 on:
-  # Sadece manuel tetikleme aktif - otomatik çalışma devre dışı
+ # Manuel ve otomatik tetikleme
   workflow_dispatch:
 
 jobs:
