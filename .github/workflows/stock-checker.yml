@@ -1,9 +1,10 @@
 name: ⚡ Super Fast Stock Checker
 
 on:
- # Manuel ve otomatik tetikleme
+  # Manuel ve otomatik tetikleme
   workflow_dispatch:
-
+  schedule:
+    - cron: '*/5 * * * *'
 jobs:
   super-fast-stock-check:
     runs-on: ubuntu-latest
